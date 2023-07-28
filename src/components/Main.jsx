@@ -1,10 +1,11 @@
 import React from "react";
 import { TypeAnimation } from "react-type-animation";
 import {
-  FaTwitter,
+  /*   FaTwitter,
   FaFacebook,
-  FaInstagram,
+  FaInstagram, */
   FaLinkedinIn,
+  FaGithub,
 } from "react-icons/fa";
 
 const Main = () => {
@@ -40,8 +41,8 @@ const Main = () => {
               repeat={Infinity}
             />
           </h2>
-          <div className="flex justify-around pt-4 md:pl-8 max-w-[250px] w-full">
-            <a href="https://www.facebook.com/hugoesneider.sarmientobernal">
+          <div className="flex justify-around pt-4 max-w-[120px] md:max-w-[200px] w-full">
+            {/*  <a href="https://www.facebook.com/hugoesneider.sarmientobernal">
               <FaFacebook
                 className="cursor-pointer hover:scale-110 hover:ring-2 ring-indigo-800 p-1 rounded-sm duration-200 hover:transform hover:-translate-y-2"
                 size={30}
@@ -57,10 +58,16 @@ const Main = () => {
               <FaTwitter
                 className="cursor-pointer hover:scale-110 hover:ring-2 ring-indigo-800 p-1 rounded-sm duration-200 hover:transform hover:-translate-y-2"
                 size={30}
-              />
-            </a>
+              /> 
+            </a> */}
             <a href="https://linkedin.com/in/sarmientohugo618/">
               <FaLinkedinIn
+                className="cursor-pointer hover:scale-110 hover:ring-2 ring-indigo-800 p-1 rounded-sm duration-200 hover:transform hover:-translate-y-2"
+                size={30}
+              />
+            </a>
+            <a href="https://github.com/S4RMI618">
+              <FaGithub
                 className="cursor-pointer hover:scale-110 hover:ring-2 ring-indigo-800 p-1 rounded-sm duration-200 hover:transform hover:-translate-y-2"
                 size={30}
               />
