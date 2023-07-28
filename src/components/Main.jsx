@@ -7,13 +7,14 @@ import {
   FaLinkedinIn,
   FaGithub,
 } from "react-icons/fa";
+import ImgWallpaper from '../assets/images/fondo-estadio.jpg'
 
 const Main = () => {
   return (
     <div id="main">
       <img
         className="w-full h-screen object-cover object-left"
-        src="src/assets/images/fondo-estadio.jpg"
+        src={ImgWallpaper}
         alt="Wallpaper-Portfolio"
       />
       <div className="w-full h-screen absolute top-0 left-0 bg-white/50">
