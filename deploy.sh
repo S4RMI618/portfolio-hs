@@ -19,6 +19,6 @@ git checkout -b main
 git add -A
 git commit -m 'deploy'
 
-git push -f git@github.com:S4RMI618/S4RMI618.github.io.git main
+git push -f git@github.com:S4RMI618.github.io.git main
 
 cd -
